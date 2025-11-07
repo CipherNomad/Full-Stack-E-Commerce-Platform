@@ -31,11 +31,11 @@ To replicate a **real-world e-commerce experience** while showcasing strong skil
 
 ## 🛠️ Tech Stack
 
-* Frontend:** React.js, Tailwind CSS
-* Backend:** Node.js, Express.js
-* Database:** MongoDB & MongoDB Atlas
-* Auth:** JWT, bcrypt
-* Deployment:** AWS / Render / Vercel
+* Frontend: React.js, Tailwind CSS
+* Backend: Node.js, Express.js
+* Database: MongoDB & MongoDB Atlas
+* Auth: JWT, bcrypt
+* Deployment: AWS / Render / Vercel
 
 ---
 
@@ -62,7 +62,7 @@ npm start
 
 ## 📸 Screenshots
 
-*Add screenshots of the UI here for better presentation.*
+<!-- *Add screenshots of the UI here for better presentation.* -->
 
 ---
 
