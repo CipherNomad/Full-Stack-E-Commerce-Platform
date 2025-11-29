@@ -1,6 +1,6 @@
 # Trendify – Full-Stack Fashion E-Commerce Platform (MERN)
 
-Live Demo: **[https://ciphernomad.github.io/Full-Stack-E-Commerce-Platform/](https://ciphernomad.github.io/Full-Stack-E-Commerce-Platform/)**
+Live Demo: https://full-stack-e-commerce-platform.netlify.app/
 
 Developed a fully functional fashion e-commerce web application using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**, inspired by **Myntra’s UI/UX** and features. Trendify allows users to browse, filter, and purchase products with an intuitive interface, secure authentication, real-time cart updates, and a modern responsive design.
 
