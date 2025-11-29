@@ -96,7 +96,7 @@ nav a sup {
   width: 100%;
 }
 
-.Category_items {
+.Category_items , .items-container {
    padding: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -132,4 +132,117 @@ nav a sup {
   color: #94969f;
   text-align: end;
   padding: 15px;
+}
+/* shoping.html css */
+.items-container{
+  width: 80%;
+  /* margin-left: 10%; */
+  margin: 40px ;
+}
+
+.item-container{
+  width:250px;
+}
+
+.item-img{
+ width:100%;
+}
+
+.rating{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.company-name{
+  margin-top: 15px;
+  font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item-name{
+  color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+
+.price{
+  margin-top: 8px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #282c3f;
+    white-space: nowrap;
+}
+
+.current-price{
+  font-size: 14px;
+  font-weight: 700;
+  color: #282c3f;
+}
+
+.original-price{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.discount{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.btn-add-bag{
+  margin-top: 5px;
+    width: 94%;
+    background-color: #ff3e6c;
+    border: 1px solid #ff3e6c;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 7px;
+}
+
+.bag-item-count{
+  margin: 0 !important;
+  white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    width: 20px;
+    background: #ff3f6c;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 19px;
+    top: -64px;
+    font-weight: 700;
+}
+
+.action_container{
+  text-decoration: none;
+}
+
+a.action_container{
+  color: black;
 }

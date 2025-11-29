@@ -51,49 +51,19 @@
           <span class="material-symbols-outlined action_icon">favorite</span>
           <span class="action_name">Wishlist</span>
         </div>
-        <div class="action_container">
+        <a class="action_container" href="pages/bag.html">
           <span class="material-symbols-outlined action_icon">
             shopping_bag
           </span>
           <span class="action_name">Bag</span>
-        </div>
+          <span class="bag-item-count">0</span>
+        </a>
       </div>
     </header>
 
     <main>
-      <div class="banner_container">
-        <!-- FIXED PATH -->
-        <img class="banner_image" src="Images/banner.jpg" alt="Main Banner" />
-      </div>
-
-      <div class="category_heading">Medal Worthy Brands to Bag</div>
-      <div class="Category_Items">
-        <a href="#"><img class="sale_items" src="Images/offers/1.png" /></a>
-        <a href="#"><img class="sale_items" src="Images/offers/2.png" /></a>
-        <a href="#"><img class="sale_items" src="Images/offers/3.png" /></a>
-        <a href="#"><img class="sale_items" src="Images/offers/4.png" /></a>
-        <a href="#"><img class="sale_items" src="Images/offers/5.png" /></a>
-        <a href="#"><img class="sale_items" src="Images/offers/6.png" /></a>
-        <a href="#"><img class="sale_items" src="Images/offers/7.png" /></a>
-        <a href="#"><img class="sale_items" src="Images/offers/8.png" /></a>
-        <a href="#"><img class="sale_items" src="Images/offers/9.png" /></a>
-        <a href="#"><img class="sale_items" src="Images/offers/10.png" /></a>
-        <a href="#"><img class="sale_items" src="Images/offers/11.png" /></a>
-        <a href="#"><img class="sale_items" src="Images/offers/12.png" /></a>
-      </div>
-
-      <div class="category_heading">Shop By Category</div>
-      <div class="Category_Items">
-        <a href="#"><img class="sale_items" src="Images/categories/1.jpg" /></a>
-        <a href="#"><img class="sale_items" src="Images/categories/2.jpg" /></a>
-        <a href="#"><img class="sale_items" src="Images/categories/3.jpg" /></a>
-        <a href="#"><img class="sale_items" src="Images/categories/4.jpg" /></a>
-        <a href="#"><img class="sale_items" src="Images/categories/5.jpg" /></a>
-        <a href="#"><img class="sale_items" src="Images/categories/6.jpg" /></a>
-        <a href="#"><img class="sale_items" src="Images/categories/7.jpg" /></a>
-        <a href="#"><img class="sale_items" src="Images/categories/8.jpg" /></a>
-        <a href="#"><img class="sale_items" src="Images/categories/9.jpg" /></a>
-        <a href="#"><img class="sale_items" src="Images/categories/10.jpg" /></a>
+      <div class="items-container">
+       
       </div>
     </main>
 
@@ -139,11 +109,7 @@
     </footer>
 
     <!-- FIXED PATH -->
+    <script src="Data/items.js"></script>
     <script src="JS/script.js"></script>
-    <script>
-      setTimeout(() => {
-        window.location.href = "shopping.html";
-    }, 5000); // redirect after 3 seconds
-    </script>
   </body>
 </html>
